@@ -1,5 +1,4 @@
-const getName = (thing) => {
-  const { name } = thing;
+const getName = ({ name }) => {
   return name;
 }; //this is bracket notation for objects
 
