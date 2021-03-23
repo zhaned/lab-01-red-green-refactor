@@ -1,6 +1,7 @@
 const copyAndPush = (list, i) => {
-  list.push(i);
-  return list;
+  const newList = list.slice();
+  newList.push(i);
+  return newList; 
 }; 
 
 module.exports = copyAndPush;
